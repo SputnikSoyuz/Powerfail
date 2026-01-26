@@ -1,5 +1,6 @@
 # Powerfail
-<img width="1634" height="545" alt="image" src="https://github.com/user-attachments/assets/d10db0e9-4809-4c01-8ee7-027f271b61bf" />
+<img width="1634" height="545" alt="image" src="https://github.com/user-attachments/assets/47cca883-56d7-4ee3-9426-e5de88f073f2" />
+
 
 A mod for the fifth Outer Wilds modding jam about four Nomai and their quest for powering their vessel.
 remake in the works (shhh don't tell anyone)
