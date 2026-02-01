@@ -3,4 +3,4 @@
 
 
 A mod for the fifth Outer Wilds modding jam about four Nomai and their quest for powering their vessel.
-remake in the works (shhh don't tell anyone)
+NO remake in the works, don't listen to the voices.
