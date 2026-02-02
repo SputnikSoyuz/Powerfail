@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 1522046482
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: deadlight system
+      Dependencies: {}
+    Info_1:
+      Name: sunsetsister
+      Dependencies: {}
