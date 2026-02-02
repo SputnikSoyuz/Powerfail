@@ -1,7 +1,9 @@
-# Powerfail
-<img width="1634" height="545" alt="image" src="https://github.com/user-attachments/assets/9e1c2963-71f3-44aa-a4fa-22e53a66e2d4" />
+<img width="1505" height="502" alt="image" src="https://github.com/user-attachments/assets/e68b5cb4-d2e9-439b-9ffe-737c8f513f8e" />
+A mod for the fifth Outer Wilds Modding jam.
 
+Have some quotes from the developers!
 
-
-A mod for the fifth Outer Wilds modding jam about four Nomai and their quest for powering their vessel.
-NO remake in the works, don't listen to the voices.
+"The mod is mid" - T3rtu
+"it's just solec being trapped in the mod basement with heroplays making music and tertu making models and me failing to make stuff work" - Vodblink
+"NOTHING IS GOING RIGHT" - Solec 
+“This mod helped me share my love for music- blah blah blah, that cynical stuff ain’t my style. I had fun making the music though.” - Hero

@@ -1,0 +1,12 @@
+{
+  "uniqueName": "TeamGeswaldo.Jam5",
+  "name": "Powerfail",
+  "author": "Team Geswaldo (Solec, T3rtu, Heroplays1122, and Vodblink)",
+  "version": "9.0",
+  "filename": "StellarSibilings.dll",
+  "owmlVersion": "2.15.1",
+  "dependencies": [
+    "xen.NewHorizons",
+    "xen-42.ModJam5"
+  ]
+}
