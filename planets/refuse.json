@@ -193,14 +193,14 @@
                 "keepLoaded": true
             },
 			{
-				"assetBundle": "planets/assetbundle/Planet_bundle/refusebundle",
-				"path": "Assets/Shitty moddles/Refuse.prefab",
+				"assetBundle": "planets/assetbundle/PowerfailBundle/sunsetsister",
+				"path": "Assets/What am i doing here/WildsRefuse.prefab",
 				"position": {
 					"x": 0,
 					"y": 0,
 					"z": 0
 				},
-				"scale": 8,
+				"scale": 1,
 				"keepLoaded": true
 			},
 						{
@@ -336,8 +336,8 @@
 		"heightMap": "planets/assets/FR_h.png",
 		"textureMap": "planets/assets/FR_c.png",
 		"tileBlendMap": "planets/assets/FR_b.png",
-		"minHeight": 47,
-		"maxHeight": 49,
+		"minHeight": 65,
+		"maxHeight": 67,
 		"redTile": {
 			"textureTile": "planets/assets/grask.png",
 			"size": 7

@@ -19,8 +19,8 @@
 		"inclination": 30,
 		"procGen": {
 			"color": {
-				"r": 80,
-				"g": 80,
+				"r": 210,
+				"g": 164,
 				"b": 80
 			},
 			"material": "rock"

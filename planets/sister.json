@@ -8,6 +8,9 @@
 		"hasMapMarker": true,
 		"ambientLight": 0.5
 	},
+	"removeChildren": [
+        "Sector/Star/Audio_Star/SurfaceAudio_Sun"
+	],
 			"Orbit": {
 		"canShowOnTitle": false,
 		"semiMajorAxis": 1244,
@@ -21,26 +24,32 @@
 		"translatorText": [
 						{
 				"type": "whiteboard",
-"position": {"x": 134.6097, "y": -103.8604, "z": -7.330017},
-"rotation": {"x": 357.324, "y": 183.8212, "z": 126.5951}
+"position": {"x": 86.92467, "y": -53.16, "z": 140.1628},
+"rotation": {"x": 4.014598, "y": 300.2437, "z": 251.1745}
 			},
 			{
              "type": "preCrashComputer",
 			 "xmlFile": "planets/xml/2-SS/SolarPanel1.xml",
-"position": {"x": 138.276, "y": -67.04636, "z": 1.757309},
-"rotation": {"x": 57.75251, "y": 300.3741, "z": 207.6166}
+"position": {"x": -143.1462, "y": 30.15845, "z": 28.12366},
+"rotation": {"x": 312.731, "y": 27.93465, "z": 64.26241}
 			},
 			{
              "type": "preCrashComputer",
 			 "xmlFile": "planets/xml/2-SS/SolarPanel2.xml",
-			 "position": {"x": -89.5732, "y": -68.68877, "z": -69.7923},
-			 "alignRadial": true
+"position": {"x": 88.62447, "y": -43.48729, "z": 142.2603},
+"rotation": {"x": 329.8697, "y": 310.106, "z": 253.4236}
+			},
+						{
+             "type": "preCrashComputer",
+			 "xmlFile": "planets/xml/2-SS/SolarPanel3.xml",
+"position": {"x": 17.61859, "y": -29.86489, "z": -144.6066},
+"rotation": {"x": 313.5052, "y": 252.4493, "z": 97.97399}
 			},
 			{
 				"type": "preCrashRecorder",
-"position": {"x": 130.0375, "y": -109.8542, "z": -8.355927},
-"rotation": {"x": -333.0529, "y": -163.9082, "z": -133.7753},
-"xmlFile": "planets/xml/OopsIDroppedIt.xml"
+"position": {"x": 82.94669, "y": -45.87065, "z": 145.0514},
+"rotation": {"x": 289.6233, "y": 350.3965, "z": 220.1275},
+"xmlFile": "planets/xml/2-SS/OhForRadon'sSake.xml"
 			},
 			{
 				"type": "preCrashRecorder",
@@ -57,8 +66,8 @@
 			},
 						{
 				"type": "scroll",
-"position": {"x": 5.17395, "y": -6.819963, "z": -133.3493},
-"rotation": {"x": 59.94481, "y": 85.57355, "z": 267.4719},
+"position": {"x": -0.0005750656, "y": 210.5257, "z": -0.000541687},
+"rotation": {"x": 1.586581, "y": 326.1889, "z": 5.346976},
 "xmlFile": "planets/xml/theInvisibleBehindMyEyes.xml"
 			},
 									{
@@ -70,46 +79,46 @@
 		],
 		"details": [
 			{
-				"assetBundle": "planets/assetbundle/Better_bundle/brother",
-				"path": "Assets/Shitty moddles/SS_2.prefab",
+				"assetBundle": "planets/assetbundle/PowerfailBundle/sunsetsister",
+				"path": "Assets/What am i doing here/SunsetSister.prefab",
 				"position": {
 					"x": 0,
 					"y": 0,
 					"z": 0
 				},
 				"rotation": {
-					"x": -90,
+					"x": 180,
 					"y": 0,
 					"z": 0
 				},
-				"scale": 78,
+				"scale": 1.5,
 				"keepLoaded": true
 			},
 						{
 				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_TimeLoopExperiment/Geometry_TimeLoopExperiment/ControlledByProxy_Arch/Structure_NOM_TimeLoopExperiment/TLE_Exterior/TLE_Exterior_Geo",
-"position": {"x": -24.9856, "y": -0.7275, "z": 114.4094},
-"rotation": {"x": 359.1166, "y": 90.00151, "z": 179.1903},
+"position": {"x": -122.0432, "y": 43.3551, "z": 19.0975},
+"rotation": {"x": 20.96357, "y": 34.72314, "z": 154.7489},
 				"rename": "PanelC",
 				"keepLoaded": true
 			},
 			{
 				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_TimeLoopExperiment/Geometry_TimeLoopExperiment/ControlledByProxy_Arch/Structure_NOM_TimeLoopExperiment/TLE_Exterior/TLE_Exterior_Geo",
-				"position": {"x": -84.6526, "y": -61.5177, "z": -50.0057},
-				"rotation": {"x": 330.6183, "y": 148.5825, "z": 247.5695},
+"position": {"x": 97.5097, "y": -52.3396, "z": 107.3343},
+"rotation": {"x": 61.35378, "y": 166.1843, "z": 133.1718},
 				"rename": "PanelB",
 				"keepLoaded": true
 			},
 			{
 				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_TimeLoopExperiment/Geometry_TimeLoopExperiment/ControlledByProxy_Arch/Structure_NOM_TimeLoopExperiment/TLE_Exterior/TLE_Exterior_Geo",
-"position": {"x": 84.0437, "y": 10.7774, "z": -6.4757},
-"rotation": {"x": 314.7451, "y": 143.7909, "z": 138.0777},
+"position": {"x": 9.7633, "y": -7.9617, "z": -129.561},
+"rotation": {"x": 359.6923, "y": 274.8938, "z": 192.1651},
 				"rename": "PanelA",
 				"keepLoaded": true
 			},
 												    {
       "path": "Moon_Body/Sector_THM/Interactables_THM/Effects_HEA_Campfire",
-"position": {"x": 134.3235, "y": -102.6368, "z": -19.10963},
-"rotation": {"x": 308.9013, "y": 72.53364, "z": 198.5067},
+"position": {"x": 86.27177, "y": -47.49919, "z": 142.5086},
+"rotation": {"x": 357.0548, "y": 302.3584, "z": 255.6957},
 "keepLoaded": true
     }
 		],
