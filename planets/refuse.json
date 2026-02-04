@@ -3,8 +3,8 @@
 	"name": "Wilds' Refuge",
 	"starSystem": "Jam5",
 	"Base": {
-		"surfaceSize": 75,
-		"surfaceGravity": 8,
+		"surfaceSize": 80,
+		"surfaceGravity": 10,
 		"hasMapMarker": true,
 		"ambientLight": 0.5
 		
@@ -205,25 +205,49 @@
 			},
 						{
 				"path" : "BrittleHollow_Body/Sector_BH/Sector Cannon Path/Fragment CannonPath_5/Core_CannonPath_5", 
-				"position": {"x": -75.5641, "y": 38.2976, "z": 110.4277},
-				"rotation": {"x": 25.3989, "y": 203.7535, "z": 2.2669},
-				"stretch": {"x": 0.8, "y": 1.2, "z": 0.5},
+				"position": {"x": -96.3702, "y": 12.9999, "z": -97.7662},
+				"rotation": {"x": 0.9795, "y": 148.6532, "z": 9.4596},
+				"stretch": {"x": 0.8745, "y": 1.6836, "z": 0.1255},
+				"removeChildren": [
+					"Interactibles_Core_CannonPath_5",
+					"Interactibles_Core_CannonPath_5 (1)"
+				],
 				"keepLoaded": true
 			},
 						{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/QuantumTrees/QuantumTree_Straight/Prefab_Tree_BH_Bristle_Straight/Mesh_BH_Bristle_Straight",
-				"position": {"x": 13.4677, "y": -30.2913, "z": -52.6161},
-				"rotation": {"x": 314.485, "y": 100.8753, "z": 249.1367}
+"position": {"x": 52.33432, "y": -3.535484, "z": -46.40173},
+"rotation": {"x": 16.25435, "y": 233.8477, "z": 91.66562}
 			},
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/QuantumTrees/QuantumTree_Straight/Prefab_Tree_BH_Bristle_Straight/Mesh_BH_Bristle_Straight",
-				"position": {"x": -5.0879, "y": -15.867, "z": -58.6782},
-				"rotation": {"x": 292.3694, "y": 178.9384, "z": 200.308}
+"position": {"x": 55.03082, "y": 9.866028, "z": -44.80852},
+"rotation": {"x": 66.49409, "y": 236.6273, "z": 93.58111}
+			},
+						{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/QuantumTrees/QuantumTree_Straight/Prefab_Tree_BH_Bristle_Straight/Mesh_BH_Bristle_Straight",
+"position": {"x": 64.12279, "y": 1.095791, "z": -38.78954},
+"rotation": {"x": 329.4484, "y": 231.8811, "z": 91.99842}
 			},
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/QuantumTrees/QuantumTree_Straight/Prefab_Tree_BH_Bristle_Straight/Mesh_BH_Bristle_Straight",
 "position": {"x": 14.90288, "y": -2.429245, "z": -64.05482},
 "rotation": {"x": 68.67385, "y": 14.29514, "z": 198.7414}
+			},
+						{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/QuantumTrees/QuantumTree_Straight/Prefab_Tree_BH_Bristle_Straight/Mesh_BH_Bristle_Straight",
+"position": {"x": 39.77072, "y": -33.84158, "z": -54.38944},
+"rotation": {"x": 323.3263, "y": 232.6075, "z": 92.93295}
+			},
+									{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/QuantumTrees/QuantumTree_Straight/Prefab_Tree_BH_Bristle_Straight/Mesh_BH_Bristle_Straight",
+"position": {"x": 80.54708, "y": 0.05419731, "z": -23.38041},
+"rotation": {"x": 29.24753, "y": 230.3349, "z": 92.72327}
+			},
+									{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/QuantumTrees/QuantumTree_Straight/Prefab_Tree_BH_Bristle_Straight/Mesh_BH_Bristle_Straight",
+"position": {"x": 77.4173, "y": -18.82518, "z": -25.00418},
+"rotation": {"x": 331.3402, "y": 228.428, "z": 92.76538}
 			},
 									{
 				"path" : "ConstructionYardIsland_Body/Sector_ConstructionYard/Geometry_ConstructionYard/OtherComponentsGroup/ControlledByProxy_ConstructionYard/Structures_ConstructionIsland/BatchedGroup/BatchedMeshRenderers_15",
@@ -268,26 +292,38 @@
 			},
 																	{
 			"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
-"position": {"x": -9.915261, "y": 45.65646, "z": -14.73866},
-"rotation": {"x": 341.4773, "y": 63.31071, "z": 350.1623},
+"position": {"x": -12.16213, "y": 65.39594, "z": -7.943301},
+"rotation": {"x": 1.177397, "y": 151.9849, "z": 348.1441},
 "keepLoaded": true
 			},
 																	{
 			"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
-"position": {"x": -3.41703, "y": 48.81684, "z": -2.421238},
-"rotation": {"x": 357.8837, "y": 107.2467, "z": 355.9856},
+"position": {"x": -6.19408, "y": 58.12287, "z": -32.73504},
+"rotation": {"x": 343.1425, "y": 66.72143, "z": 336.1856},
 "keepLoaded": true
 			},
 																	{
 			"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
-"position": {"x": 22.8066, "y": 41.15151, "z": -13.65169},
-"rotation": {"x": 339.2089, "y": 355.0985, "z": 333.8942},
+"position": {"x": 24.13686, "y": 58.95614, "z": -20.72149},
+"rotation": {"x": 332.0857, "y": 304.0166, "z": 3.935602},
 "keepLoaded": true
 			},
 																	{
 			"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
-"position": {"x": 30.94838, "y": 37.76791, "z": 3.981991},
-"rotation": {"x": 323.8374, "y": 235.1051, "z": 17.3525},
+"position": {"x": 24.45131, "y": 62.23615, "z": -4.027244},
+"rotation": {"x": 345.9958, "y": 229.6139, "z": 15.86085},
+"keepLoaded": true
+			},
+																	{
+			"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+"position": {"x": -11.75387, "y": 62.21569, "z": 21.86069},
+"rotation": {"x": 348.7417, "y": 211.3681, "z": 341.5836},
+"keepLoaded": true
+			},
+																	{
+			"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+"position": {"x": -25.7018, "y": 59.25369, "z": 17.76258},
+"rotation": {"x": 333.8738, "y": 143.1693, "z": 351.3402},
 "keepLoaded": true
 			},
 									    {
@@ -299,8 +335,8 @@
 		]
 	},
 	"Atmosphere": {
-		"size": 86,
-		"fogSize": 86,
+		"size": 111,
+		"fogSize": 111,
 		"hasTrees": true,
 		"useAtmosphereShader": true,
 		"atmosphereTint": {
@@ -327,7 +363,7 @@
 				"loop": true,
 				"track": "music",
 				"audio": "planets/music/Wilds' Refuge.mp3",
-				"radius": 110,
+				"radius": 145,
 				"volume": 1
 			}
 		]
@@ -344,7 +380,7 @@
 		}
 	},
 	"Water": {
-		"size": 48
+		"size": 66
 	},
 	  		"ShipLog" : {
 		"spriteFolder": "planets/shiplog",

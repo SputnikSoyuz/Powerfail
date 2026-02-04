@@ -23,7 +23,7 @@
 },
 			"Orbit": {
 		"canShowOnTitle": false,
-		"semiMajorAxis": 150,
+		"semiMajorAxis": 170,
 		"primaryBody": "Companion Conglomerate",
 		"isTidallyLocked": true,
 		"inclination": 84,
