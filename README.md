@@ -1,3 +1,4 @@
+<img width="1885" height="1018" alt="image" src="https://github.com/user-attachments/assets/53733aec-49be-445e-8973-2a37a439f43f" />
 
 A mod for the fifth Outer Wilds Modding jam about a group of Nomai and a desperate attempt at powering their vessel.
 
