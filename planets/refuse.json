@@ -15,7 +15,7 @@
 		"primaryBody": "Companion Conglomerate",
 		"inclination": 84,
 		"isMoon": true,
-		"isTidallyLocked": true,
+		"isTidallyLocked": false,
 		"siderealPeriod": 1.75,
 		"alignmentAxis": {"x": 0, "y": 90, "z": -50}
 	},
@@ -193,8 +193,8 @@
                 "keepLoaded": true
             },
 			{
-				"assetBundle": "planets/assetbundle/PowerfailBundle/sunsetsister",
-				"path": "Assets/What am i doing here/WildsRefuse.prefab",
+				"assetBundle": "planets/assetbundle/Powerfail_Bundle/powerfail",
+				"path": "Assets/PowerFail/WildsRefuse.prefab",
 				"position": {
 					"x": 0,
 					"y": 0,

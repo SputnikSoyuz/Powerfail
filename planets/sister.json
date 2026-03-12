@@ -79,8 +79,8 @@
 		],
 		"details": [
 			{
-				"assetBundle": "planets/assetbundle/PowerfailBundle/sunsetsister",
-				"path": "Assets/What am i doing here/SunsetSister.prefab",
+				"assetBundle": "planets/assetbundle/Powerfail_Bundle/powerfail",
+				"path": "Assets/PowerFail/SunsetSister.prefab",
 				"position": {
 					"x": 0,
 					"y": 0,
@@ -167,15 +167,6 @@
 	]
   },
   		"Volumes": {
-		"audioVolumes": [
-			{
-				"loop": true,
-				"track": "music",
-				"audio": "planets/music/Sunset Sister.mp3",
-				"radius": 260,
-				"volume": 1
-			}
-		],
 		"oxygenVolumes":
 		[
 			{

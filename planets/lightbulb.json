@@ -3,7 +3,7 @@
 	"name": "Lofted Lightbulb",
 	"starSystem": "Jam5",
 	"Base": {
-		"surfaceSize": 20,
+		"surfaceSize": 30,
 		"surfaceGravity": 5,
 		"hasMapMarker": true
 	},
@@ -23,7 +23,7 @@
 },
 			"Orbit": {
 		"canShowOnTitle": false,
-		"semiMajorAxis": 170,
+		"semiMajorAxis": 200,
 		"primaryBody": "Companion Conglomerate",
 		"isTidallyLocked": true,
 		"inclination": 84,
@@ -59,8 +59,8 @@
 		],
 		"details": [
 			{
-				"assetBundle": "planets/assetbundle/PowerfailBundle/sunsetsister",
-				"path": "Assets/What am i doing here/Lightbulb_OWLK.prefab",
+				"assetBundle": "planets/assetbundle/Powerfail_Bundle/powerfail",
+				"path": "Assets/PowerFail/Lightbulb_OWLK.prefab",
 				"position": {
 					"x": 0,
 					"y": 0,
