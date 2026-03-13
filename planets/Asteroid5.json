@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
-	"name": "fuckshit in ring",
+	"name": "fuckshit outer",
 	"starSystem": "Jam5",
 	"Base": {
 		"surfaceSize": 25,
@@ -9,7 +9,7 @@
 	},
 	"Orbit": {
 		"canShowOnTitle": false,
-		"semiMajorAxis": 2144,
+		"semiMajorAxis": 2472,
 		"primaryBody": "Bruised Brother",
 		"isTidallyLocked": false,
 		"inclination": 30,
@@ -30,11 +30,11 @@
 					"z": 0
 				},
 				"rotation": {
-					"x": 180,
-					"y": 0,
-					"z": 0
+					"x": 80,
+					"y": 20,
+					"z": 180
 				},
-				"scale": 1,
+				"scale": 0.6,
 				"keepLoaded": true
 			}
         ]

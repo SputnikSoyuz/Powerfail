@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
-	"name": "fuckshit in ring",
+	"name": "fuckshit trojan",
 	"starSystem": "Jam5",
 	"Base": {
 		"surfaceSize": 25,
@@ -9,11 +9,11 @@
 	},
 	"Orbit": {
 		"canShowOnTitle": false,
-		"semiMajorAxis": 2144,
+		"semiMajorAxis": 2368,
 		"primaryBody": "Bruised Brother",
 		"isTidallyLocked": false,
 		"inclination": 30,
-		"trueAnomaly": 0,
+		"trueAnomaly": 20,
 		"isMoon": true
 	},
     "MapMarker": {
@@ -23,7 +23,7 @@
 		"details": [
 			{
 				"assetBundle": "planets/assetbundle/Powerfail_Bundle/powerfail",
-				"path": "Assets/PowerFail/Asteroid3.prefab",
+				"path": "Assets/PowerFail/Asteroid2.prefab",
 				"position": {
 					"x": 0,
 					"y": 0,
