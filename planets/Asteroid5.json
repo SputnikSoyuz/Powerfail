@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
-	"name": "fuckshit outer gap",
+	"name": "fuckshit outer",
 	"starSystem": "Jam5",
 	"Base": {
 		"surfaceSize": 25,
@@ -9,11 +9,11 @@
 	},
 	"Orbit": {
 		"canShowOnTitle": false,
-		"semiMajorAxis": 2444,
+		"semiMajorAxis": 2472,
 		"primaryBody": "Bruised Brother",
 		"isTidallyLocked": false,
 		"inclination": 30,
-		"trueAnomaly": 250,
+		"trueAnomaly": 0,
 		"isMoon": true
 	},
     "MapMarker": {
@@ -23,18 +23,18 @@
 		"details": [
 			{
 				"assetBundle": "planets/assetbundle/Powerfail_Bundle/powerfail",
-				"path": "Assets/PowerFail/Asteroid4.prefab",
+				"path": "Assets/PowerFail/Asteroid3.prefab",
 				"position": {
 					"x": 0,
 					"y": 0,
 					"z": 0
 				},
 				"rotation": {
-					"x": 180,
-					"y": 0,
-					"z": 0
+					"x": 80,
+					"y": 20,
+					"z": 180
 				},
-				"scale": 1,
+				"scale": 0.6,
 				"keepLoaded": true
 			}
         ]

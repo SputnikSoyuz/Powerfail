@@ -89,8 +89,8 @@
 			},
 						{
 				"type": "whiteboard",
-"position": {"x": -1.263823, "y": -0.7254791, "z": 80.5068},
-"rotation": {"x": 6.798604, "y": 88.9578, "z": 90.83521}
+"position": {"x": 33.62564, "y": 6.665954, "z": 57.55398},
+"rotation": {"x": 359.7155, "y": 120.4878, "z": 83.62283}
 			},
 			{
 				"xmlFile": "planets/xml/MoistCrater.xml",

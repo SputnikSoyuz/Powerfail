@@ -1,19 +1,19 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
-	"name": "fuckshitstrikesback",
+	"name": "fuckshit inner gap",
 	"starSystem": "Jam5",
 	"Base": {
 		"surfaceSize": 25,
 		"surfaceGravity": 3,
-		"hasMapMarker": true,
 		"ambientLight": 0.5
 	},
 	"Orbit": {
 		"canShowOnTitle": false,
-		"semiMajorAxis": 2344,
+		"semiMajorAxis": 2244,
 		"primaryBody": "Bruised Brother",
 		"isTidallyLocked": false,
 		"inclination": 30,
+		"trueAnomaly": 123,
 		"isMoon": true
 	},
     "MapMarker": {
