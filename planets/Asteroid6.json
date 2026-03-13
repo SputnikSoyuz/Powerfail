@@ -3,8 +3,10 @@
 	"name": "fuckshit campfire moon",
 	"starSystem": "Jam5",
 	"Base": {
+
 		"surfaceSize": 20,
 		"surfaceGravity": 0,
+
 		"ambientLight": 0.5
 	},
 	"Orbit": {
