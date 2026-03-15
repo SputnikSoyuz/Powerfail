@@ -81,9 +81,9 @@
 	"warpTransmitters": [
 		{
 			"alignmentWindow": 360,
-			"frequency": "Brother-Maze",
-			"position": {"x": 148.708, "y": -193.5996, "z": 195.9802},
-"rotation": {"x": 25.34543, "y": 147.9024, "z": 132.5454}
+			"frequency": "Refuge-Maze",
+			"position": {"x": 148.708, "y": 193.5996, "z": 274.605},
+            "rotation": {"x": 25.34543, "y": 147.9024, "z": 132.5454}
 		}
 	],
 		"details": [
