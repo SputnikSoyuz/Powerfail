@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2702556439
+CRC: 3991309196
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 8371cd75b0d8e6722cf1bcbc1141866a
+    Hash: 61e65da3598139c986285127dbdd3643
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 6f722da403f63c217bfce37509b7a53c
+    Hash: eddd7782455c12f1e6fdde8f8b5dd0b4
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -35,6 +35,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: fbb2498122f7e23a2e87544333cb528f, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: dab2fbc1d63988697a57c20e75208116, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b446aa63b809cb3da1921800cd416866, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 1beb2a46e0dd133c749d1f6530e10662, type: 3}
 - Class: 114
@@ -73,8 +75,10 @@ Assets:
 - Assets/PowerFail/Maze.prefab
 - Assets/PowerFail/Asteroid6.prefab
 - Assets/PowerFail/Asteroid2.prefab
+- Assets/PowerFail/Antena rig.prefab
 - Assets/PowerFail/Asteroid1.prefab
 - Assets/PowerFail/Asteroid4.prefab
 - Assets/PowerFail/Lightbulb_OWLK.prefab
 - Assets/PowerFail/SunsetSister.prefab
+- Assets/PowerFail/Antena rig detail.prefab
 Dependencies: []
