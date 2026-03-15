@@ -94,6 +94,27 @@
 				"scale": 1.5,
 				"keepLoaded": true
 			},
+						{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_TimeLoopExperiment/Geometry_TimeLoopExperiment/ControlledByProxy_Arch/Structure_NOM_TimeLoopExperiment/TLE_Exterior/TLE_Exterior_Geo",
+"position": {"x": -122.0432, "y": 43.3551, "z": 19.0975},
+"rotation": {"x": 20.96357, "y": 34.72314, "z": 154.7489},
+				"rename": "PanelC",
+				"keepLoaded": true
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_TimeLoopExperiment/Geometry_TimeLoopExperiment/ControlledByProxy_Arch/Structure_NOM_TimeLoopExperiment/TLE_Exterior/TLE_Exterior_Geo",
+"position": {"x": 97.5097, "y": -52.3396, "z": 107.3343},
+"rotation": {"x": 61.35378, "y": 166.1843, "z": 133.1718},
+				"rename": "PanelB",
+				"keepLoaded": true
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_TimeLoopExperiment/Geometry_TimeLoopExperiment/ControlledByProxy_Arch/Structure_NOM_TimeLoopExperiment/TLE_Exterior/TLE_Exterior_Geo",
+"position": {"x": 9.7633, "y": -7.9617, "z": -129.561},
+"rotation": {"x": 359.6923, "y": 274.8938, "z": 192.1651},
+				"rename": "PanelA",
+				"keepLoaded": true
+			},
 												    {
       "path": "Moon_Body/Sector_THM/Interactables_THM/Effects_HEA_Campfire",
 "position": {"x": 86.27177, "y": -47.49919, "z": 142.5086},
@@ -158,8 +179,8 @@
 			{
 				"loop": true,
 				"track": "music",
-				"audio": "planets/music/Sunset Sister.mp3",
-				"radius": 260,
+				"audio": "planets/music/Entropic Extremes.mp3",
+				"radius": 230,
 				"volume": 1
 			}
 		]
