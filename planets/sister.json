@@ -17,38 +17,27 @@
 		"primaryBody": "Bruised Brother",
 		"isTidallyLocked": true,
 		"inclination": 11,
-		"isMoon": false,
+		"isMoon": true,
 		"siderealPeriod": 1.75
 	},
 	"Props": {
 		"translatorText": [
-						{
-				"type": "whiteboard",
-"position": {"x": 86.92467, "y": -53.16, "z": 140.1628},
-"rotation": {"x": 4.014598, "y": 300.2437, "z": 251.1745}
-			},
 			{
              "type": "preCrashComputer",
 			 "xmlFile": "planets/xml/2-SS/SolarPanel1.xml",
-"position": {"x": -143.1462, "y": 30.15845, "z": 28.12366},
-"rotation": {"x": 312.731, "y": 27.93465, "z": 64.26241}
+"position": {"x": 82.16949, "y": -91.96188, "z": 123.0271},
+"rotation": {"x": 341.4711, "y": 318.7744, "z": 242.1948}
 			},
 			{
              "type": "preCrashComputer",
 			 "xmlFile": "planets/xml/2-SS/SolarPanel2.xml",
-"position": {"x": 88.62447, "y": -43.48729, "z": 142.2603},
-"rotation": {"x": 329.8697, "y": 310.106, "z": 253.4236}
-			},
-						{
-             "type": "preCrashComputer",
-			 "xmlFile": "planets/xml/2-SS/SolarPanel3.xml",
-"position": {"x": 17.61859, "y": -29.86489, "z": -144.6066},
-"rotation": {"x": 313.5052, "y": 252.4493, "z": 97.97399}
+"position": {"x": 104.681, "y": -91.69969, "z": 104.7435},
+"rotation": {"x": 311.2842, "y": 349.8777, "z": 224.4045}
 			},
 			{
 				"type": "preCrashRecorder",
-"position": {"x": 82.94669, "y": -45.87065, "z": 145.0514},
-"rotation": {"x": 289.6233, "y": 350.3965, "z": 220.1275},
+"position": {"x": 109.9284, "y": -50.60003, "z": 125.6438},
+"rotation": {"x": 52.10849, "y": 292.6609, "z": 246.9228},
 "xmlFile": "planets/xml/2-SS/OhForRadon'sSake.xml"
 			},
 			{
@@ -78,6 +67,11 @@
 			}
 		],
 		"details": [
+      {
+        "path": "WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_NomaiTree_Var_2/GEO_NomaiTree_1_Trunk",
+        "parentPath": "Sector/SScamp",
+        "isRelativeToParent": true
+      },
 			{
 				"assetBundle": "planets/assetbundle/Powerfail_Bundle/powerfail",
 				"path": "Assets/PowerFail/SunsetSister.prefab",
@@ -95,32 +89,20 @@
 				"keepLoaded": true
 			},
 						{
-				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_TimeLoopExperiment/Geometry_TimeLoopExperiment/ControlledByProxy_Arch/Structure_NOM_TimeLoopExperiment/TLE_Exterior/TLE_Exterior_Geo",
-"position": {"x": -122.0432, "y": 43.3551, "z": 19.0975},
-"rotation": {"x": 20.96357, "y": 34.72314, "z": 154.7489},
-				"rename": "PanelC",
-				"keepLoaded": true
+				"assetBundle": "planets/assetbundle/Powerfail_Bundle/powerfail",
+				"path": "Assets/PowerFail/Antena rig detail.prefab",
+"position": {"x": 109.8027, "y": -46.16, "z": 124.6087},
+"rotation": {"x": 341.3747, "y": 316.0409, "z": 255.2832},
+				"scale": 1
 			},
-			{
-				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_TimeLoopExperiment/Geometry_TimeLoopExperiment/ControlledByProxy_Arch/Structure_NOM_TimeLoopExperiment/TLE_Exterior/TLE_Exterior_Geo",
-"position": {"x": 97.5097, "y": -52.3396, "z": 107.3343},
-"rotation": {"x": 61.35378, "y": 166.1843, "z": 133.1718},
-				"rename": "PanelB",
+									{
+				"assetBundle": "planets/assetbundle/Powerfail_Bundle/powerfail",
+				"path": "Assets/PowerFail/Antena rig.prefab",
+"position": {"x": 109.8027, "y": -46.16, "z": 124.6087},
+"rotation": {"x": 341.3747, "y": 316.0409, "z": 255.2832},
+				"scale": 1,
 				"keepLoaded": true
-			},
-			{
-				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_TimeLoopExperiment/Geometry_TimeLoopExperiment/ControlledByProxy_Arch/Structure_NOM_TimeLoopExperiment/TLE_Exterior/TLE_Exterior_Geo",
-"position": {"x": 9.7633, "y": -7.9617, "z": -129.561},
-"rotation": {"x": 359.6923, "y": 274.8938, "z": 192.1651},
-				"rename": "PanelA",
-				"keepLoaded": true
-			},
-												    {
-      "path": "Moon_Body/Sector_THM/Interactables_THM/Effects_HEA_Campfire",
-"position": {"x": 86.27177, "y": -47.49919, "z": 142.5086},
-"rotation": {"x": 357.0548, "y": 302.3584, "z": 255.6957},
-"keepLoaded": true
-    }
+			}
 		],
 		"singularities": [
 			{
@@ -170,9 +152,9 @@
 		"oxygenVolumes":
 		[
 			{
-				"radius": 10,
-				"position": {"x": 129.121, "y": -110.1535, "z": -13.60687},
-				"treeVolume": false
+				"radius": 60,
+				"position": {"x": 93.6964, "y": -85.78117, "z": 118.5251},
+				"treeVolume": true
 			}
 		],
 		"audioVolumes": [
@@ -180,7 +162,7 @@
 				"loop": true,
 				"track": "music",
 				"audio": "planets/music/Sunset Sister.mp3",
-				"radius": 230,
+				"radius": 260,
 				"volume": 1
 			}
 		]
