@@ -4,10 +4,17 @@
 	"starSystem": "Jam5",
 	"Base": {
 		"surfaceSize": 120,
-		"surfaceGravity": 8,
-		"hasMapMarker": false,
+		"surfaceGravity": 0,
+		"hasMapMarker": true,
 		"ambientLight": 0.5,
 		"hasFluidDetector": false
+},
+"Cloak": 
+{
+    "radius": 150,
+    "farCloakRadius": 155,
+    "innerCloakRadius": 95,
+    "nearCloakRadius": 100
 },
 "Volumes": {
 	
@@ -46,10 +53,10 @@
 		{
 			"loop": true,
 			"track": "music",
-			"audio": "planets/music/Basil's Theme.mp3",
-			"radius": 19,
+			"audio": "planets/music/SSPU.mp3",
+			"radius": 120,
 			"volume": 1,
-			"position": {"x": 0.1418195, "y": 33.98166, "z": -3.265439}
+			"position": {"x": 0, "y": 0, "z": 0}
 		}
 	],
 	"mapRestrictionVolumes": [
@@ -115,25 +122,18 @@
 				"rename": "Basil"
 			},
 			{
-				"assetBundle": "planets/assetbundle/Epic_bundle/epicbundle",
-				"path": "Assets/Shitty moddles/SSPU.prefab",
+				"assetBundle": "planets/assetbundle/Powerfail_Bundle/powerfail",
+				"path": "Assets/PowerFail/SSPU.prefab",
 				"position": {
 					"x": 0,
 					"y": 0,
 					"z": 0
 				},
-				"scale": 2,
+				"scale": 6,
 				"keepLoaded": true
 			}
 		]
 	},
-"Cloak": 
-{
-    "radius": 150,
-    "innerCloakRadius": 145,
-    "nearCloakRadius": 140,
-    "farCloakRadius": 155
-},
 
 "Orbit": {
     "isStatic": true,
@@ -144,6 +144,6 @@
     }
 },
 	"ReferenceFrame": {
-		"enabled": false
+		"enabled": true
 	}
 }
