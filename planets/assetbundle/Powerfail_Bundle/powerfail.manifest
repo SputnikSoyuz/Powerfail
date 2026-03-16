@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2263245597
+CRC: 836062328
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c113f0eb65e5772f9b1b37ff1a205acc
+    Hash: 7989a11011c4ea2dbd325be4fc4eb77e
   TypeTreeHash:
     serializedVersion: 2
-    Hash: eddd7782455c12f1e6fdde8f8b5dd0b4
+    Hash: 93a7da3e744dd6fd2d531664eb240ff0
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -29,6 +29,8 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 65
   Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
 - Class: 108
   Script: {instanceID: 0}
 - Class: 114
@@ -37,6 +39,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: dab2fbc1d63988697a57c20e75208116, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: b446aa63b809cb3da1921800cd416866, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 567b10f3592a22d2bef7141ba8f84acb, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 1beb2a46e0dd133c749d1f6530e10662, type: 3}
 - Class: 114
@@ -48,11 +52,17 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 651bf6a97f095be1000b67022b3d85c7, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 2145ed3a866d4bd5a94d98ee05d0fa4f, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 0cfd736a3952486c93e9a5d8f58c79c3, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 82d6ff9ac3325b114213581627497e75, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 1f3014da1c89ce2573a27c371d8ccd9f, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 7f2e3f7cc6baeb3499f9963353d7b458, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9893321d896ff975d056df09969d1ee0, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 0439374de7aa5c9cadcc76f4256d44a9, type: 3}
 - Class: 114
@@ -74,11 +84,13 @@ Assets:
 - Assets/PowerFail/Asteroid5.prefab
 - Assets/PowerFail/Maze.prefab
 - Assets/PowerFail/Asteroid6.prefab
+- Assets/PowerFail/Projection Camp Detail.prefab
 - Assets/PowerFail/Asteroid2.prefab
 - Assets/PowerFail/Antena rig.prefab
 - Assets/PowerFail/Asteroid1.prefab
 - Assets/PowerFail/Asteroid4.prefab
 - Assets/PowerFail/Lightbulb_OWLK.prefab
 - Assets/PowerFail/SunsetSister.prefab
+- Assets/PowerFail/ProjectionCamp Detail.prefab
 - Assets/PowerFail/Antena rig detail.prefab
 Dependencies: []

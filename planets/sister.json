@@ -85,7 +85,7 @@
 					"y": 0,
 					"z": 0
 				},
-				"scale": 1.5,
+				"scale": 1,
 				"keepLoaded": true
 			},
 						{
@@ -95,7 +95,7 @@
 "rotation": {"x": 341.3747, "y": 316.0409, "z": 255.2832},
 				"scale": 1
 			},
-									{
+				{
 				"assetBundle": "planets/assetbundle/Powerfail_Bundle/powerfail",
 				"path": "Assets/PowerFail/Antena rig.prefab",
 "position": {"x": 109.8027, "y": -46.16, "z": 124.6087},
@@ -161,7 +161,7 @@
 			{
 				"loop": true,
 				"track": "music",
-				"audio": "planets/music/Sunset Sister.mp3",
+				"audio": "planets/music/Entropic Extremes.mp3",
 				"radius": 260,
 				"volume": 1
 			}
