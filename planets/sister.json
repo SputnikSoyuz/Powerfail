@@ -21,6 +21,54 @@
 		"siderealPeriod": 1.75
 	},
 	"Props": {
+		"signals": [
+			{
+				"audio": "planets/assets/signal.wav",
+				"frequency": "Signal Brodcast",
+				"name": "signal_link_1a",
+"position": {"x": 123.4261, "y": -87.38449, "z": 156.999},
+"detectionRadius": 70,
+"sourceRadius": 3,
+"identificationRadius": 70
+			},
+			{
+				"audio": "planets/assets/signal.wav",
+				"frequency": "Signal Brodcast",
+				"name": "signal_link_2a",
+"position": {"x": 159.1509, "y": -67.12468, "z": 132.3584},
+"detectionRadius": 70,
+"sourceRadius": 3,
+"identificationRadius": 70
+			},
+			{
+				"audio": "planets/assets/signal.wav",
+				"frequency": "Signal Brodcast",
+				"name": "signal_link_3a",
+"position": {"x": 114.5737, "y": -45.57485, "z": 178.5505},
+"detectionRadius": 70,
+"sourceRadius": 3,
+"identificationRadius": 70
+			},
+			{
+				"audio": "planets/assets/signal.wav",
+				"frequency": "Signal Brodcast",
+				"name": "signal_link_1b",
+"position": {"x": 0, "y": 0, "z": 0},
+"detectionRadius": 300,
+"sourceRadius": 3,
+"identificationRadius": 300
+			}
+		],
+		"remotes": [
+			{
+				"id": "SunsetSister",
+				"decalPath": "planets/assets/SunsetSister.png",
+				"platform": {
+"position": {"x": -0.3344078, "y": 213.6618, "z": -0.5418487},
+"rotation": {"x": 4.145881, "y": 210.601, "z": 356.2668}
+				}
+			}
+		],
 		"translatorText": [
 			{
              "type": "preCrashComputer",
@@ -85,7 +133,7 @@
 					"y": 0,
 					"z": 0
 				},
-				"scale": 1,
+				"scale": 1.5,
 				"keepLoaded": true
 			},
 						{
@@ -95,7 +143,7 @@
 "rotation": {"x": 341.3747, "y": 316.0409, "z": 255.2832},
 				"scale": 1
 			},
-				{
+									{
 				"assetBundle": "planets/assetbundle/Powerfail_Bundle/powerfail",
 				"path": "Assets/PowerFail/Antena rig.prefab",
 "position": {"x": 109.8027, "y": -46.16, "z": 124.6087},
@@ -161,7 +209,7 @@
 			{
 				"loop": true,
 				"track": "music",
-				"audio": "planets/music/Entropic Extremes.mp3",
+				"audio": "planets/music/Sunset Sister.wav",
 				"radius": 260,
 				"volume": 1
 			}

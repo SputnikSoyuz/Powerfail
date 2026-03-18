@@ -17,6 +17,7 @@
 		"isTidallyLocked": false,
 		"inclination": 30,
 		"trueAnomaly": 250,
+		"showOrbitLine": false,
 		"isMoon": true
 	},
     "MapMarker": {

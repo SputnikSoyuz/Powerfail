@@ -3,7 +3,7 @@
 	"name": "Bruised Brother",
 	"starSystem": "Jam5",
 	"Base": {
-		"surfaceSize": 450,
+		"surfaceSize": 200,
 		"surfaceGravity": 24,
 		"hasMapMarker": true,
 		"ambientLight": 0.5,
@@ -20,9 +20,15 @@
 	],
 	"AmbientLights": [
 		{
-			"innerRadius": 530,
-			"outerRadius": 753,
+			"innerRadius": 639,
+			"outerRadius": 800,
+			"isShell": true,
 			"intensity": 3
+		},
+		{
+			"innerRadius": 200,
+			"outerRadius": 639,
+			"intensity": 1
 		}
 	],
 	"Volumes": {
@@ -81,9 +87,16 @@
 	"warpTransmitters": [
 		{
 			"alignmentWindow": 360,
-			"frequency": "Refuge-Maze",
-			"position": {"x": 148.708, "y": 193.5996, "z": 274.605},
-            "rotation": {"x": 25.34543, "y": 147.9024, "z": 132.5454}
+			"frequency": "Brother-Maze",
+			"position": {"x": 148.708, "y": -193.5996, "z": 195.9802},
+"rotation": {"x": 25.34543, "y": 147.9024, "z": 132.5454}
+		}
+	],
+				"warpReceivers": [
+		{
+			"frequency": "Refuge-Brother",
+"position": {"x": -48.67031, "y": -326.6084, "z": 12.36176},
+"rotation": {"x": 1.262774, "y": 196.5853, "z": 187.7444}
 		}
 	],
 		"details": [
@@ -97,23 +110,31 @@
 				},
 				"scale": 1,
 				"keepLoaded": true
+			},
+									{
+				"assetBundle": "planets/assetbundle/Powerfail_Bundle/powerfail",
+				"path": "Assets/PowerFail/ProjectionCamp Detail.prefab",
+"position": {"x": -15.1529, "y": -327.3603, "z": -14.1698},
+"rotation": {"x": 1.299202, "y": 237.4104, "z": 178.2296},
+				"scale": 1
+			},
+									{
+				"assetBundle": "planets/assetbundle/Powerfail_Bundle/powerfail",
+				"path": "Assets/PowerFail/Projection Camp Detail.prefab",
+"position": {"x": -15.15285, "y": -327.6483, "z": -12.90074},
+"rotation": {"x": 1.299202, "y": 237.4104, "z": 178.2296},
+				"scale": 1,
+				"keepLoaded": true
 			}
 		]
 	},
 	"Atmosphere": {
 		"size": 750,
-		"fogSize": 750,
 		"useAtmosphereShader": true,
 		"atmosphereTint": {
 				"r": 149,
 				"g": 66,
 				"b": 245,
-			"a": 255
-		},
-		"fogTint": {
-				"r": 100,
-				"g": 70,
-				"b": 15,
 			"a": 255
 		},
 		"clouds": {
@@ -137,7 +158,7 @@
 			},
 						{
 			"time": 22,
-			"value": 1
+			"value": 7
 			}
 		]
 	},

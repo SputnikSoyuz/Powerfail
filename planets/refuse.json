@@ -15,7 +15,7 @@
 		"primaryBody": "Companion Conglomerate",
 		"inclination": 84,
 		"isMoon": true,
-		"isTidallyLocked": false,
+		"isTidallyLocked": true,
 		"siderealPeriod": 1.75,
 		"alignmentAxis": {"x": 0, "y": 90, "z": -50}
 	},
@@ -51,6 +51,18 @@
 			"frequency": "Platform-Refuge",
 "position": {"x": 15.80604, "y": -3.341545, "z": 78.48455},
 "rotation": {"x": 10.10538, "y": 102.882, "z": 91.0071}
+		}
+	],
+	"warpTransmitters": [
+		{
+			"frequency": "Refuge-Asteroid",
+"position": {"x": -59.49497, "y": -25.41017, "z": -6.298454},
+"rotation": {"x": 22.03806, "y": 3.856817, "z": 114.9445}
+		},
+		{
+			"frequency": "Refuge-Brother",
+"position": {"x": -59.49497, "y": -25.41017, "z": -6.298454},
+"rotation": {"x": 22.03806, "y": 3.856817, "z": 114.9445}
 		}
 	],
 				"geysers": [
@@ -336,16 +348,9 @@
 	},
 	"Atmosphere": {
 		"size": 111,
-		"fogSize": 111,
 		"hasTrees": true,
 		"useAtmosphereShader": true,
 		"atmosphereTint": {
-			"r": 45,
-			"g": 100,
-			"b": 200,
-			"a": 255
-		},
-		"fogTint": {
 			"r": 45,
 			"g": 100,
 			"b": 200,

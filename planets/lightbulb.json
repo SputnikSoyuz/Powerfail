@@ -41,6 +41,17 @@
 		]
 	},
 	"Props": {
+		"signals": [
+			{
+				"audio": "planets/assets/signal.wav",
+				"frequency": "Signal Brodcast",
+				"name": "signal_link_2b",
+"position": {"x": 0, "y": 0, "z": 0},
+"detectionRadius": 40,
+"sourceRadius": 3,
+"identificationRadius": 40
+			}
+		],
 		"translatorText": [
 							{
 				"xmlFile": "planets/xml/4-LL/ReachingToTheCore.xml",
