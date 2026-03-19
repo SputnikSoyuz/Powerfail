@@ -19,7 +19,25 @@
 		"siderealPeriod": 1.75,
 		"alignmentAxis": {"x": 0, "y": 90, "z": -50}
 	},
+	"removeChildren": [ "Sector/BrotherWarp/Props_NOM_WarpCoreBlack",
+						"Sector/BrotherWarp/PointLight_NOM_WarpCoreBlack (1)",
+						"Sector/BrotherWarp/Structure_NOM_WarpTransmitter",
+						"Sector/BrotherWarp/Structure_NOM_PlatformContainer"
+						],
 	"Props": {
+		"remotes": [
+			{
+				"id": "Asteroid",
+				"decalPath": "planets/assets/No mind to think.png",
+				"stones": 
+				[
+					{
+						"position": {"x": -61.70625, "y": -16.36999, "z": -12.22141},
+                        "rotation": {"x": 312.0936, "y": 332.0546, "z": 112.0674}
+					}
+				]
+			}
+		],
 					"dialogue": [
 		{
 			"pathToAnimController": "Sector/Cedar",
@@ -54,17 +72,21 @@
 		}
 	],
 	"warpTransmitters": [
-		{
-			"frequency": "Refuge-Asteroid",
+        {
+            "frequency": "Refuge-Asteroid",
 "position": {"x": -59.49497, "y": -25.41017, "z": -6.298454},
-"rotation": {"x": 22.03806, "y": 3.856817, "z": 114.9445}
-		},
-		{
-			"frequency": "Refuge-Brother",
+"rotation": {"x": 22.03806, "y": 3.856817, "z": 114.9445},
+"alignmentWindow": 360,
+"rename" : "AsteroidWarp"
+        },
+        {
+            "frequency": "Refuge-Brother",
 "position": {"x": -59.49497, "y": -25.41017, "z": -6.298454},
-"rotation": {"x": 22.03806, "y": 3.856817, "z": 114.9445}
-		}
-	],
+"rotation": {"x": 22.03806, "y": 3.856817, "z": 114.9445},
+"alignmentWindow": 360,
+"rename" : "BrotherWarp"
+        }
+    ],
 				"geysers": [
 			{
 				"position": {"x": 38.8765, "y": -26.96621, "z": 12.72086},

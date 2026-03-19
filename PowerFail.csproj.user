@@ -1,0 +1,5 @@
+﻿<Project>
+  <PropertyGroup>
+    <OutputPath>$(AppData)/OuterWildsModManager/OWML/Mods/T3rtu.PowerFail</OutputPath>
+  </PropertyGroup>
+</Project>
