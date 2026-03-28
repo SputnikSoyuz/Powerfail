@@ -9,6 +9,7 @@
     <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
     <NoWarn>MSB3270</NoWarn>
     <DebugType>portable</DebugType>
+	<OutputPath>$(USERPROFILE)\Outer Wilds RIP\Assets</OutputPath>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="OWML" Version="2.15.1" />
@@ -45,4 +46,14 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+	<ItemGroup>
+		<!-- TODO: change this to local copy so CI works -->
+		<Reference Include="NewHorizons">
+			<HintPath>$(OuterWildsModsDirectory)\xen.NewHorizons\NewHorizons.dll</HintPath>
+			<Private>False</Private>
+		</Reference>
+	</ItemGroup>
+	<Target Name="BuildDll" AfterTargets="Build">
+		<Copy SourceFiles="$(OutputPath)$(AssemblyName).dll" DestinationFolder="$(USERPROFILE)\Outer Wilds RIP\Assets"/>
+	</Target>
 </Project>

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright © 2026 T3rtu")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9134f224622c52da8bc683122a75f8c2eb72a4aa")]
 [assembly: System.Reflection.AssemblyProductAttribute("PowerFail")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PowerFail")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
